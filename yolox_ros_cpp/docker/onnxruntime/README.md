@@ -31,6 +31,10 @@ colcon build --cmake-args -DYOLOX_USE_ONNXRUNTIME=ON
 ```
 ros2 launch yolox_ros_cpp yolox_onnxruntime.launch.py
 ```
+model を変更する場合　（デフォルトはyolox_tiny）
+```
+ros2 launch yolox_ros_cpp yolox_onnxruntime.launch.py model_path:='./src/YOLOX-ROS/weights/onnx/yolox_m.onnx'
+```
 
 ## RealSenseを使う
 docker コンテナ内でRealSenseにアクセスできるように docker-compose.ymlに以下を追加
