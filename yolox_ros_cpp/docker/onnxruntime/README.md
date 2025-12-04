@@ -5,7 +5,7 @@ YOROX-ROS humble
 ワークスペースに移動して、YOLOX-ROSのリポジトリをクローンする。
 ```
 cd ~/ros2_ws_src
-git clone --recursive https://github.com/okadahiroyuki/YOLOX-ROS -b jazzy
+git clone --recursive https://github.com/okadahiroyuki/YOLOX-ROS -b humble
 cd YOLOX-ROS/yolox_ros_cpp/docker/onnxruntime/
 ```
 Docker イメージのビルドとコンテナ起動
